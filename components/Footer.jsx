@@ -17,8 +17,8 @@ const Footer = () => {
           <h2 className="text-gray-50 text-l md:text-xl font-burtons text-sm">
             Email Address:{" "}
             <spam className="text-teal-500 dark:text-teal-500 underline font-sans">
-              <a href="mailto:mdawoodrafique394@gmail.com">
-                mdawoodrafique394@gmail.com
+              <a href="mailto:info.dawoodrafique@gmail.com">
+                info.dawoodrafique@gmail.com
               </a>
             </spam>
           </h2>
