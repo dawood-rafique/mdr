@@ -5,7 +5,6 @@ import { SiFiverr } from "react-icons/si";
 import { SiUpwork } from "react-icons/si";
 import Image from "next/image";
 import devet from "../public/mdr_pic5.png";
-import resume from "../public/Dawood_Rafique_Resume.pdf";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Services from "../components/Services";
@@ -15,9 +14,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   const router = useRouter();
-  const handleDownload = () => {
-    router.push("/MDR.pdf");
-  };
+  
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -40,12 +37,12 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href={resume}
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  onClick={handleDownload}
-                >
-                  Resume
-                </a>
+  href="/Dawood_Rafique_Resume.pdf"
+  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+  download
+>
+  Resume
+</a>
               </li> 
             </ul>
           </nav>
