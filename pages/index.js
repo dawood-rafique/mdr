@@ -81,9 +81,9 @@ export default function Home() {
             >
               <SiUpwork />
             </a>
-            <a href="https://www.linkedin.com/in/mdr394" className="text-4xl">
-              <ImLinkedin2 />
-            </a>
+            // <a href="https://www.linkedin.com/in/mdr394" className="text-4xl">
+            //   <ImLinkedin2 />
+            // </a>
           </div>
         </section>
 
