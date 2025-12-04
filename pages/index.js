@@ -5,6 +5,7 @@ import { SiFiverr } from "react-icons/si";
 import { SiUpwork } from "react-icons/si";
 import Image from "next/image";
 import devet from "../public/mdr_pic5.png";
+import resume from "../public/Dawood_Rafique_Resume.pdf";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Services from "../components/Services";
@@ -37,15 +38,15 @@ export default function Home() {
                   className="text-2xl cursor-pointer dark:text-white"
                 />
               </li>
-              {/* <li>
+              <li>
                 <a
-                  href="#"
+                  href={resume}
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                   onClick={handleDownload}
                 >
                   Resume
                 </a>
-              </li> */}
+              </li> 
             </ul>
           </nav>
           <div className="relative mx-auto bg-gradient-to-t from-teal-600 to-teal-900 rounded-full w-80 h-80 mt-20 overflow-hidden md:w-96 md:h-96">
